@@ -1,0 +1,276 @@
+
+
+              body{
+              font-family: sans-serif;
+                      background-color: darkgray;
+
+            }
+            #menu{
+                margin: 0%;
+                padding: 0;
+                position: relative;
+
+            }
+            ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              background-color: #333;
+            }
+
+            li {
+              float: left;
+            }
+
+            li a, .boto {
+                  display: inline-block;
+                  color: white;
+                  text-align: center;
+                  padding: 30px 35px;
+                  text-decoration: none;
+            }
+
+           #menu li a:hover, .tot:hover .boto {
+              background-color: red;
+            }
+
+            li.tot {
+              display: inline-block;
+            }
+
+            .content {
+              display: none;
+              position: absolute;
+              background-color: #f9f9f9;
+              min-width: 160px;
+              z-index: 1;
+            }
+
+
+
+            .content a:hover {
+                background-color: red;
+            }
+
+            .content a {
+              color: black;
+              padding: 12px 16px;
+              text-decoration: none;
+              display: block;
+              text-align: left;
+            }
+            .tot:hover .content {
+              display: block;
+            }
+
+
+
+        #logo img{
+            position: absolute;
+            margin-left: 89%;
+            width: 152px;
+            height: 87px; 
+
+        }
+      
+
+            * {box-sizing: border-box}
+            body {font-family: Verdana, sans-serif; margin:0}
+            .mySlides {display: none}
+            img {vertical-align: middle;}
+
+
+
+
+
+
+
+
+
+            .form{
+                font-family:"Times New Roman";
+                font-size: 20px;
+            }
+            form{
+                background-color: whitesmoke;
+                border-radius: 3px;
+                font-size: 0.8em;
+                padding: 20px;
+                margin: 0 auto;
+                width: 500px;
+                border-radius: 12px;
+                border: 2px black solid;
+                box-shadow:7px 5px #333; 
+            }
+            
+            input, textarea{
+                border: 0;
+                outline: none;
+                width: 460px;
+            }
+            
+            .field{
+                border: 2px black solid;
+                border-radius: 8px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                padding: 10px;
+                background-color: gainsboro;
+            }
+            
+            .field:focus{
+                border-color:  white;
+                background-color: darkgray;
+                
+            }
+            
+            .bo{
+               border: 2px  black solid;
+                border-radius: 8px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                padding: 10px;
+                width: 221px;
+                background-color: #333;
+                color: white;
+            }
+            
+            .bob{
+                margin-left: 2%;
+            }
+            .bo:hover{
+                border: 2px  gray solid;
+                border-radius: 8px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                padding: 10px;
+                width: 221px;
+                background-color: ghostwhite;
+                color: black;
+                  
+            }
+            
+            .bo:active{
+                border: 2px  #333 solid;
+                border-radius: 8px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                padding: 10px;
+                width: 221px;
+                background-color: white;
+                color: black;
+                font-weight: bold;
+                box-shadow:7px 5px #333; 
+            }
+            
+      
+            label{
+                color: black;
+          
+            }
+            
+          .text{
+              margin: 0;
+              height: 125px;
+          }
+
+          .modi{
+              width: 221px;
+          }
+
+          .n{
+              margin-left: 200px;
+          }
+
+          .titol{
+              background-color: whitesmoke;
+                    border-radius: 3px;
+                    color: black;
+                    font-size: 0.8em;
+                    padding: 20px;
+                    padding-bottom: 15px;
+                    padding-top: 15px;
+                    margin: 0 auto;
+                    width: 500px;
+                    border-radius: 12px;
+                    border: 2px black solid;
+                    box-shadow:7px 5px #333;
+                    margin-top: 2%;    
+                    text-align: center;
+          }
+
+          .tu{
+              margin-left: 2%;
+          }
+
+
+
+
+
+
+
+
+
+
+    .peu{
+        background-color:  #333;
+        color: white;
+        position: relative;
+        margin-top: 3%;
+
+    }
+
+    .colaboradors {
+        margin-top: 5px;
+    }
+
+    .xarxes{
+        margin-top: 12px;
+        margin-left: 80%;
+        position: absolute;
+    }
+
+    .ximg{
+        width: 40px;
+        border-radius: 10px;
+    }
+
+    .cola{
+        width: 120px;
+        height: 40px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: 2%;
+    }
+
+
+    .colaboradors{
+        margin-top: 2%;
+        position: relative;
+    }
+
+    .rgpd{
+        width: 60px;
+    }
+
+    .menupeu{
+        position: absolute;
+        margin-left: 40%;
+    }
+
+    ol.b{
+        list-style-type: square;
+    }
+
+     ol.a{
+            list-style-type: circle;
+        }
+
+   .peu li a{
+          padding: 0px;
+    }
+
+    .informacio{
+        position: relative;
+    }

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>ACADEMY 50</title>
+    <link rel="stylesheet" href=estils/estilinici.css />
+</head>
+<body>
+    <nav id="menu">
+        
+         <div class="xarxes">
+            
+            <a href="https://www.instagram.com/" target="_blank"><img alt="insta" class="ximg" src="imatges/instagram.png" /></a>
+             <a href="https://twitter.com/?lang=es"  target="_blank"><img alt="twitter" class="ximg" src="imatges/twitter.png" /></a>
+             <a href="https://es-es.facebook.com/"  target="_blank"><img alt="facebook" class="ximg" src="imatges/facebook.jfif" /></a>
+            
+        </div>
+        
+        <div id="logo">
+        <img alt="logo" src="imatges/logo.png" />
+        </div>
+        
+    <ul>
+          <li><a href="index.html">Inici</a></li>
+          <li class="tot">
+            <a href ="#" class="boto">Cursos</a>
+            <div class="content">
+                <a href="cursos/ofimatica/ofimatica.html">Ofimática / Gestió Empresarial</a>
+                <a href="cursos/diseny/diseny.html">Diseny Grafic i Diseny Tecnic </a>
+                <a href="cursos/programacio/programacio.html">Programació</a>
+                <a href="cursos/xarxa/xarxa.html">Comunicacio i xarxes</a>
+            </div>
+          
+            <li><a href="contacte.html">Contacte</a></li>
+    </ul>
+        
+        
+      
+    </nav>
+    
+
+    
+    <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <img alt="diseny" src="imatges/diseny.jpg" style="width:100%;">
+    </div>
+
+    <div class="mySlides fade">
+      <img alt="excel" src="imatges/excel.jpg" style="width:100%;">
+    </div>
+
+    <div class="mySlides fade">
+      <img alt="programacio" src="imatges/programacio.jpg" style="width:100%">
+    </div>
+        
+    <div class="mySlides fade">
+      <img alt="server" src="imatges/windowserver.png" style="width:100%">
+    </div>
+        
+    </div>
+
+
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 4000); // Change image every 2 seconds
+        }
+    </script>
+
+    <br/>
+    
+     <div class="cap">
+            
+            <img alt="horari" class="horari" src="imatges/horari.jpg" />            
+  
+        </div>
+
+    
+    <div class="quisom">
+        
+        
+        <h2>WHO ARE WE?</h2>
+        <p>
+            The key to professional success lies in the skills that a person is able to acquire, these being increasingly valued by companies when choosing a candidate for a job.
+            <br/>
+            <br/>
+
+            That is why the <b> ACADEMY 50 </b> was born, which aims to train professionals in the sector so that they acquire the appropriate professional skills to enter the job market.
+            <br/>
+            <br/>
+            That is why we have in our institution the best team of professionals in the sector who will help our students to acquire the appropriate skills, with the help of our technology classrooms distributed throughout the national geography. In these technological spaces our students will be trained in the appropriate skills to consolidate the theoretical knowledge previously acquired.
+            <br/>
+            <br/>
+            Finally, and in order to fulfill our mission, ACADEMY 50 collaborates with the most important companies in each of the sectors. This collaboration will help our students to acquire the appropriate skills and facilitate their insertion into the labor market.
+        </p>
+        
+        
+    </div>
+    <br/> 
+    <br/> 
+    
+    <div class="peu">
+    
+
+        
+        
+        
+
+
+
+        <div class="colaboradors">
+        <h4>
+           COL·LABORADORS:
+        </h4>
+    
+        <a href="http://web.gencat.cat/ca/generalitat/" target="_blank" ><img alt="generalitat" class="cola" src="imatges/generalitat.jpg" /></a>
+        <a href="https://www.tarrega.cat/" target="_blank" ><img alt="tarrega" class="cola" src="imatges/tarrega.jpg" /></a>
+        <a href="https://administracion.gob.es/pagFront/espanaAdmon/directorioOrganigramas/gobiernoEstado/gobiernoEstado.htm#.YENyZWhKhPY" target="_blank" ><img alt="gover" class="cola" src="imatges/govern.png" /></a>
+        
+        <a href="https://www.aepd.es/sites/default/files/2019-09/informe-politicas-de-privacidad-adaptacion-RGPD.pdf" target="_blank"> <img alt="rgpd" src="imatges/rgpd.JPG"  class="cola rgpd" /> </a> 
+
+                   
+            
+        </div>
+        
+   
+        
+        <div class="informacio">
+        
+        <h4>Contacta'ns:</h4>
+            <p>ACADEMY50@HOTMAIL.COM<br />
+                
+            Horari d'atenció: DLL. a DV. 9 a 13hs y 16 a 20hs.<br />
+                
+            (+34) 918 827 198 - (+34) 631 433 905</p>
+            
+        
+        </div>
+    
+        
+    </div>
+    
+    </body>
+</html>

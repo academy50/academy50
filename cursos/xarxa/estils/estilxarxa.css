@@ -1,0 +1,224 @@
+
+body{
+      font-family: sans-serif;
+    background-color: darkgray;
+    }
+    #menu{
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a, .boto {
+          display: inline-block;
+          color: white;
+          text-align: center;
+          padding: 30px 35px;
+          text-decoration: none;
+    }
+
+     #menu li a:hover, .tot:hover .boto {
+      background-color: red;
+    }
+
+    li.tot {
+      display: inline-block;
+    }
+
+    .content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      z-index: 1;
+    }
+
+
+
+    .content a:hover {
+        background-color: red;
+    }
+
+    .content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    .tot:hover .content {
+      display: block;
+    }
+    
+
+    #logo img{
+        position: absolute;
+        margin-left: 89%;
+        width: 152px;
+        height: 87px; 
+        
+    }
+
+    * {box-sizing: border-box}
+    body {font-family: Verdana, sans-serif; margin:0}
+    .mySlides {display: none}
+    img {vertical-align: middle;}
+
+
+
+
+
+
+
+
+
+
+.cataleg {
+    margin: 5%;
+    margin-left: 11%;
+    margin-right: 11%;
+}
+
+.cataleg h1{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: black 2px 2px 2px;
+    border-bottom: 2px solid red;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.producte{
+    border: 1px dotted black;
+    border-radius: 10px;
+    display: inline-grid;    
+    box-shadow: gray 5px 5px 5px;
+    margin: 20px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+
+.cataleg img{
+    width: 250px;
+    border: 1px dotted black;
+    border-radius: 10px;
+    
+}
+
+.cataleg .nom{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+
+.cataleg a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.producte:hover{
+    background-color:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .peu{
+        background-color:  #333;
+        color: white;
+        position: relative;
+        margin-top: 3%;
+
+    }
+
+    .colaboradors {
+        margin-top: 5px;
+    }
+
+    .xarxes{
+        margin-top: 12px;
+        margin-left: 80%;
+        position: absolute;
+    }
+
+    .ximg{
+        width: 40px;
+        border-radius: 10px;
+    }
+
+    .cola{
+        width: 120px;
+        height: 40px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: 2%;
+    }
+
+
+    .colaboradors{
+        margin-top: 2%;
+        position: relative;
+    }
+
+
+
+    .menupeu{
+        position: absolute;
+        margin-left: 40%;
+    }
+
+
+    ol.b{
+        list-style-type: square;
+    }
+
+     ol.a{
+            list-style-type: circle;
+        }
+
+   .peu li a{
+          padding: 0px;
+    }
+
+
+         .rgpd{
+        width: 60px;
+    }
+
+    .informacio{
+        position: relative;
+    }
